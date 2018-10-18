@@ -20,6 +20,8 @@
 
 **b. Include a video of your working video doorbell**
 
+[A video of pressing the button in the Arduino and seeing the screen goes white and black, with the picture taken from the wbecam](https://youtu.be/Tw60-grqKYY)
+
 ## Part C. Make it your own
 
 **a. Find, install, and try out a node-based library and try to incorporate into your lab. Document your successes and failures (totally okay!) for your writeup. This will help others in class figure out cool new tools and capabilities.**
