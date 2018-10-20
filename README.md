@@ -16,6 +16,7 @@
 [pictureServer and server](https://github.com/TalGenkin/Interactive--Device-Design/blob/master/pictureServerandServer.png)
 
 In pictureServer.js, there is an addition for code for the web camera setup:
+
 /--Additions:
 //----------------------------WEBCAM SETUP------------------------------------//
 //Default options
@@ -44,7 +45,9 @@ var opts = { //These Options define how the webcam is operated.
 var Webcam = NodeWebcam.create( opts ); //starting up the webcam
 //----------------------------------------------------------------------------//
 
+
 In addition, there is a code for taking a picture:
+
 
 //-- Addition: This function is called when the client clicks on the `Take a picture` button.
   socket.on('takePicture', function() {
@@ -63,6 +66,7 @@ In addition, there is a code for taking a picture:
   
 Something that was changed was the variables defined in the beginning of server.js were const:
 
+
 const express = require('express'); // web server application
 const http = require('http');       // http basics
 const app = express();                          // instantiate express server
@@ -73,6 +77,7 @@ const serverPort = 8000;            // port (ixe##.local:PORT)
 
 While in pictureServer.js, they weren't:
 
+
 var express = require('express'); // web server application
 var app = express(); // webapp
 var http = require('http').Server(app); // connects http library to server
@@ -81,8 +86,11 @@ var serverPort = 8000;
 var SerialPort = require('serialport'); // serial library
 var Readline = SerialPort.parsers.Readline; // read serial data as lines
 
+
 Additional variable:
+
 var NodeWebcam = require( "node-webcam" );// load the webcam module
+
 
 **b. Include a video of your working video doorbell**
 
