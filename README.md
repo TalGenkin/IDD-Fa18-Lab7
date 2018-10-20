@@ -20,7 +20,7 @@
 
 **b. Include a video of your working video doorbell**
 
-![Picture-camera](cameraPicture.png) 
+[Picture-camera](https://github.com/TalGenkin/Interactive--Device-Design/blob/master/cameraPicture.png)
 
 [A video of pressing the button in the Arduino and seeing the screen goes white and black, with the picture taken from the wbecam](https://youtu.be/Tw60-grqKYY)
 
