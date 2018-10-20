@@ -18,6 +18,8 @@
 
 **a. Compare `helloYou/server.js` and `IDD-Fa18-Lab7/pictureServer.js`. What elements had to be added or changed to enable the web camera? (Hint: It might be good to know that there is a UNIX command called `diff` that compares files.)**
 
+![pictureServer and server](pictureServer-vs-server.png)
+
 **b. Include a video of your working video doorbell**
 
 [Picture-camera](https://github.com/TalGenkin/Interactive--Device-Design/blob/master/cameraPicture.png)
