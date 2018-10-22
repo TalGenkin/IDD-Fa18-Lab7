@@ -94,9 +94,15 @@ var NodeWebcam = require( "node-webcam" );// load the webcam module
 
 **b. Include a video of your working video doorbell**
 
+Before making the doorbell video, theses are examples to taking a picture from the URL:
+
 [Picture-camera](https://github.com/TalGenkin/Interactive--Device-Design/blob/master/cameraPicture.png)
 
 [A video of pressing the button in the Arduino and seeing the screen goes white and black, with the picture taken from the wbecam](https://youtu.be/Tw60-grqKYY)
+
+And this is the doorbell video:
+
+[Doorbell video](https://youtu.be/txjqDXRT33w)
 
 ## Part C. Make it your own
 
