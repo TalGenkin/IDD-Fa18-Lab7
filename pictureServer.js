@@ -91,7 +91,7 @@ parser.on('data', function(data) {
 });
 //----------------------------------------------------------------------------//
 
-serial.write(' ABCD');
+//serial.write(' ABCD');
 
 //---------------------- WEBSOCKET COMMUNICATION (web browser)----------------//
 // this is the websocket event handler and say if someone connects
